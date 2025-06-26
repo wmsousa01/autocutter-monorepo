@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+
+# Environment variables
+.env*
+!.env.example
+
+# Uploads, backups ou arquivos temporários
+uploads/
+*.bak
+*.tmp
+
+# Clerk (se aplicável)
+.clerk/.tmp/
+src/config/google-service-account.json
+src/config/google-service-account.json
